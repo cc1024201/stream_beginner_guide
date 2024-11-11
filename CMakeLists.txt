@@ -15,5 +15,7 @@ add_executable(clog_example iostream/clog_example.cpp)
 
 add_executable(ifstream_example fstream/ifstream_example.cpp)
 add_executable(ofstream_example fstream/ofstream_example.cpp)
-add_executable(istringstream_example sstream/istringstream_example.cpp)
+add_executable(istringstream_example sstream/istringstream_example.cpp
+        sstream/stringstream_example.cpp)
 add_executable(ostringstream_example sstream/ostringstream_example.cpp)
+add_executable(stringstream_example sstream/stringstream_example.cpp)
