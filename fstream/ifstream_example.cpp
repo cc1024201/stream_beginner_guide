@@ -10,7 +10,7 @@ int main() {
     std::ifstream ifs("example.txt");
     if (ifs.is_open()) {
         std::string content;
-        ifs >> content;
+        std::getline(ifs, content);
         std::cout << "File content: " << content << std::endl;
         ifs.close();
     } else {
