@@ -19,3 +19,7 @@ add_executable(istringstream_example sstream/istringstream_example.cpp
         sstream/stringstream_example.cpp)
 add_executable(ostringstream_example sstream/ostringstream_example.cpp)
 add_executable(stringstream_example sstream/stringstream_example.cpp)
+add_executable(MyCin MyCin.cpp)
+add_executable(MyString MyString.cpp)
+add_executable(MyCout MyCout.cpp)
+add_executable(my_cerr my_cerr.cpp)
